@@ -14,12 +14,14 @@ declare module "@zapala/react-native-twilio-video-webrtc" {
     trackIdentifier: TrackIdentifier;
     ref?: React.Ref<any>;
     scaleType?: scaleType;
+    applyZOrder?: boolean;
   }
 
   interface TwilioVideoLocalViewProps extends ViewProps {
     enabled: boolean;
     ref?: React.Ref<any>;
     scaleType?: scaleType;
+    applyZOrder?: boolean;
   }
 
   interface Participant {
